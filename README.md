@@ -2,7 +2,7 @@
 
 This project reproduces and extends an **academic study on user behavior in social commerce platforms** using text analytics and machine learning techniques.
 
-The focus is on mining user‑generated content (reviews, comments, posts) to understand behavioral patterns, sentiments and key topics that drive engagement and purchase decisions. [web:131]
+The focus is on mining user‑generated content (reviews, comments, posts) to understand behavioral patterns, sentiments and key topics that drive engagement and purchase decisions.
 
 ---
 
@@ -13,8 +13,7 @@ The focus is on mining user‑generated content (reviews, comments, posts) to un
   - User reviews, comments or posts from a social commerce platform.  
   - Basic metadata such as user ID, timestamp, rating, product/category, etc.
 
-The original academic work provides the conceptual framework; this implementation focuses on the **data and modeling pipeline** in Python. [web:131]
-
+The original academic work provides the conceptual framework; this implementation focuses on the **data and modeling pipeline** in Python. 
 ---
 
 ## 🧩 Text Preprocessing & Feature Engineering
@@ -27,7 +26,7 @@ Key steps in the pipeline:
   - Bag‑of‑Words / TF‑IDF representations.  
   - Optional n‑grams to capture short phrases.  
 - Construction of document‑level features such as:
-  - Review length, use of emotive words, rating information. [web:128][web:131]
+  - Review length, use of emotive words, rating information. 
 
 These features are used for downstream tasks such as sentiment analysis, topic modeling and behavioral clustering.
 
@@ -46,7 +45,7 @@ Depending on the configuration, the project can include:
   - Inspection of top words per topic and interpretation in terms of user behavior.
 
 - **User segmentation**:  
-  - Clustering users or documents based on text‑derived features to identify behavioral segments (e.g. bargain seekers, brand‑loyal users, highly engaged users). [web:131]
+  - Clustering users or documents based on text‑derived features to identify behavioral segments (e.g. bargain seekers, brand‑loyal users, highly engaged users). 
 
 The notebook(s) document the full workflow from raw text to insights, mirroring the structure of the academic study.
 
@@ -63,7 +62,7 @@ Example outputs:
 These insights can support:
 - Marketing and personalization strategies.  
 - Platform design decisions (UI/content changes).  
-- Further research on social commerce behavior. [web:131]
+- Further research on social commerce behavior. 
 
 ---
 
@@ -76,4 +75,4 @@ These insights can support:
 - clean and preprocess text,  
 - build features (TF‑IDF / n‑grams),  
 - train and evaluate sentiment / topic models,  
-- generate visualizations and tables with behavioral insights. [web:131]
+- generate visualizations and tables with behavioral insights. 
